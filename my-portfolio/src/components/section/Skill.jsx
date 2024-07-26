@@ -114,7 +114,6 @@ const SkillImage = styled.img`
   width: 24px;
   height: 24px;
 `;
-
 const Skills = () => {
   return (
     <Container id="Skills">
@@ -128,7 +127,6 @@ const Skills = () => {
           Here are some of my skills on which I have been working on for the
           past 1 year.
         </Desc>
-
         <SkillsContainer>
           {skills.map((skill, index) => (
             <Tilt>
