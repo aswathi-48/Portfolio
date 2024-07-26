@@ -3,15 +3,15 @@ import styled from "styled-components";
 import { Bio } from "../../datass/constants";
 import Typewriter from "typewriter-effect";
 import MyImage from "../../images/myImage.png";
-// import HeroBgAnimation from "../HeroBgAnimation";
-import { Tilt } from "react-tilt";
+// import HeroBgAnimation from '../HeroBgAnimation'
+// import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
-// import StarCanvas from "../canvas/Stars";
+import StarCanvas from "../canvas/Star";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -220,7 +220,7 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          {/* <StarCanvas /> */}
+          <StarCanvas />
           {/* <HeroBgAnimation /> */}
         </HeroBg>
 
@@ -255,9 +255,9 @@ const Hero = () => {
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
-                <Tilt>
+                {/* <Tilt> */}
                   <Img src={MyImage} alt="Rishav Chanda" />
-                </Tilt>
+                {/* </Tilt> */}
               </motion.div>
             </HeroRightContainer>
           </HeroInnerContainer>
