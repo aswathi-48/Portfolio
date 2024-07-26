@@ -205,3 +205,33 @@ export const experiences = [
         ],
       },
 ]
+
+export const education = [
+    {
+        id: 0,
+        img: "https://i.pinimg.com/736x/40/51/c0/4051c041611e23ce3137078cac153f10.jpg",
+        school: "Peekay CICS Arts And Science College Mathara",
+        date: "jun 2020 - july 2023",
+        grade: "7.41 CGPA",
+        desc: "I hold a Bachelor of Science degree in Computer Science from Calicut University, having completed six semesters with a CGPA of 7.41.Throughout my academic journey, I developed a strong foundation in computer science principles and gained hands-on experience with various programming languages and technologies. I am adept at problem-solving and have a keen interest in software development and system design.",
+        degree: "Bachelor of Computer Science",
+    },
+    {
+        id: 1,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDcwAfHleLhp-HW3CCshRvWvEduvt1Dw3SNQ&s",
+        school: "GVHSS For Girls Nadakkavu",
+        date: "jun 2018 - july 2020",
+        grade: "75%",
+        desc: "I completed my pre-degree education in Computer Science at Nadakkavu Girls' School.",
+        degree: " Computer Science",
+    },
+    {
+        id: 2,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDcwAfHleLhp-HW3CCshRvWvEduvt1Dw3SNQ&s",
+        school: "GVHSS For Girls Nadakkavu",
+        date: " july 2018",
+        grade: "94%",
+        desc: "I completed my SSLC at Nadakkavu Girls' School with a score of 94%.",
+        degree: "SSLC",
+    }
+]
