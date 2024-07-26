@@ -235,3 +235,214 @@ export const education = [
         degree: "SSLC",
     }
 ]
+
+export const projects = [
+    {
+        id: 0,
+        title: "Job Application Tracker",
+        date: "may 2024 - may 2024",
+        description:
+          "I developed a comprehensive Job Tracker Application using the MERN stack. The application was built with a combination of technologies, including Create, Next.js for server-side rendering and static site generation, TypeScript for type safety and enhanced code quality, Node.js for the server-side logic, and Express for the backend framework. This project showcases my ability to integrate various technologies to create a robust and efficient web application.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "Next Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+          "TypeScript",
+          "handlebars"
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/Jobify",
+        // webapp: "https://decisionhub.netlify.app/",
+      },
+      {
+        id: 1,
+        title: "Book Listing App",
+        date: "may 2024 - may 2024",
+        description:
+          "I developed a comprehensive Book Listing Application using the MERN stack. This application was built with a combination of technologies, including Create for project scaffolding, React.js for building an interactive and responsive user interface, JavaScript for dynamic client-side scripting, Node.js for server-side logic, and Express for the backend framework. This project demonstrates my ability to seamlessly integrate these technologies to create a fully functional web application that efficiently manages book listings.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "Next Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+          "TypeScript",
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/book-app",
+      },
+      {
+        id: 2,
+        title: "Book Listing App",
+        date: "may 2024 - may 2024",
+        description:
+          "I developed a comprehensive Book Listing Application using the MERN stack. This application was built with a combination of technologies, including Create for project scaffolding, next.js for building an interactive and responsive user interface, TypeScript for dynamic client-side scripting, Node.js for server-side logic, and Express for the backend framework. This project demonstrates my ability to seamlessly integrate these technologies to create a fully functional web application that efficiently manages book listings.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "Next Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+          "TypeScript"
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/book-app",
+      },
+      {
+        id: 3,
+        title: "Employee Listing App",
+        date: "may 2024 - may 2024",
+        description:
+          "I developed a comprehensive Employee Listing Application using the MERN stack. This application was built using Create for project initialization, Next.js for constructing an interactive and user-friendly interface, TypeScript for client-side functionality, Node.js for handling server-side operations, and Express for creating a robust backend framework. This project showcases my expertise in integrating these technologies to develop a scalable and efficient web application that effectively manages and displays employee information.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "Next Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+          "TypeScript"
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/employee-app-nextJs",
+      },
+      {
+        id: 4,
+        title: "Hey-Store",
+        date: "dec 2023 - jan 2024",
+        description:
+          "HeyStore is a project I developed, which is a full-featured e-commerce website built with the MERN stack. The frontend is constructed using React.js to create a dynamic and responsive user interface, with JavaScript enabling interactivity and client-side logic. The backend is powered by Node.js and Express.js, providing a robust server environment for handling user requests and business logic. MongoDB is used as the database to efficiently manage product inventory, user information, and transaction records. This project highlights my proficiency in full-stack development and my ability to integrate various technologies to create a seamless online shopping experience.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "React Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/heyStore-ecom",
+        webapp: "https://hey-store-ecom.vercel.app/",
+
+      },
+      {
+        id: 5,
+        title: "Shopyfy",
+        date: "nov 2023 - nov 2024",
+        description:
+          "Shopify is a MERN stack project I developed. It's useful for users to easily buy products. It is an e-commerce website using React.js, JavaScript, Node.js, Express.js,and MongoDB",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "React Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/Shoppy-ecom",
+        webapp: "https://shoppy-ecom-azure.vercel.app/",
+
+      },
+      {
+        id: 6,
+        title: "Quiz Application",
+        date: "feb 2024 - feb 2024",
+        description:
+          "I developed a Quiz Application using the MERN stack. It's a quiz application designed for students. Students can attend after entering their name. The quiz displays the final total score and the number of attempts. The technologies used are React.js, JavaScript, Node.js, Express.js, and MongoDB.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "React Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/QuizApp",
+
+      },
+      {
+        id: 7,
+        title: "Food Application",
+        date: "feb 2024 - feb 2024",
+        description:
+          "I developed a “Food Application” using the MERN stack: React.js, JavaScript, Node.js, Express.js, and MongoDB.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+          "React Js",
+          "Node Js",
+          "Express Js",
+          "Redux",
+          "JavaScript",
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/tastee",
+        webapp: "https://tastee-lemon.vercel.app/",
+      },
+      {
+        id: 8,
+        title: "Mangan-Associate",
+        date: "April 2024 - April 2024",
+        description:
+        "I developed a fully responsive website with a complete design, focusing on creating an aesthetically pleasing and user-friendly layout without integrating any specific functionality.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+        "HTML",
+        "CSS",
+        "JQuery"
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/Mangan-Associate",
+        webapp: "https://aswathi-48.github.io/Mangan-Associate/",
+      },
+      {
+        id: 9,
+        title: "SeaMonkey",
+        date: "April 2024 - April 2024",
+        description:
+        "I developed a fully responsive website with a complete design, focusing on creating an aesthetically pleasing and user-friendly layout without integrating any specific functionality.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+        "HTML",
+        "CSS",
+        "JQuery"
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/SeaMonkey",
+        webapp: "https://aswathi-48.github.io/SeaMonkey/"
+      },
+      {
+        id: 10,
+        title: "SeaMonkey",
+        date: "April 2024 - April 2024",
+        description:
+        "I developed a fully responsive website with a complete design, focusing on creating an aesthetically pleasing and user-friendly layout without integrating any specific functionality.",
+        image:
+          "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+        tags: [
+        "HTML",
+        "CSS",
+        "JQuery"
+        ],
+        category: "web app",
+        github: "https://github.com/aswathi-48/SendingHappy",
+        webapp: "https://aswathi-48.github.io/SendingHappy/"
+      },
+
+]
