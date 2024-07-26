@@ -7,6 +7,7 @@ import Skills from "./components/section/Skill";
 import Experience from "./components/section/Experience";
 import Education from "./components/section/Education";
 import Projects from "./components/section/Projects";
+import Contact from "./components/section/Contact";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -26,6 +27,7 @@ function App() {
         <Experience/>
         <Education/>
         <Projects/>
+        <Contact/>
       </Body>
     </BrowserRouter>
     </ThemeProvider>
