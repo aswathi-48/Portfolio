@@ -118,10 +118,8 @@ const Projects = () => {
             onClick={() => setToggle("web app")}
           >
             WEB APP"S
-          </ToggleButton>
-         
+          </ToggleButton>         
         </ToggleButtonGroup>
-
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => <ProjectCard project={project} />)}
