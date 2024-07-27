@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Bio } from "../../data/constants";
+import { Bio } from "../../datass/constants";
 import {
   FacebookRounded,
+  GitHub,
   Instagram,
   LinkedIn,
   Twitter,
@@ -93,11 +94,15 @@ const Footer = () => {
           <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
+          {/* <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookRounded />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
+          </SocialMediaIcon> */}
+          {/* <SocialMediaIcon href={Bio.twitter} target="display">
             <Twitter />
+            <GitHub/>
+          </SocialMediaIcon> */}
+           <SocialMediaIcon href={Bio.github} target="display">
+            <GitHub/>
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
@@ -106,9 +111,10 @@ const Footer = () => {
             <Instagram />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Aswathi. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
 };
+
 export default Footer;
