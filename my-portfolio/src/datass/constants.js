@@ -154,7 +154,7 @@ export const experiences = [
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLoxPRdI2cDp0AzF4Q5A0DF0cg90yrn8qwOQ&s",
         role: "Mern Stack Developer ",
         company: "Pupa Digital Agency",
-        date: "july 2024 - present",
+        // date: "june 2024 - present",
         desc: "I have extensive experience in full stack development, with a strong focus on creating interactive user interfaces using React. I utilize Axios for developing REST APIs, and leverage TypeScript and Next.js for building dynamic websites. Additionally, I implement state management effectively using Redux.",
         skills: [
           "ReactJS",
@@ -173,7 +173,7 @@ export const experiences = [
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfDhThxKfsrNFytzMXypjcfMiSXoqWqsOBw&s",
         role: "Mern Stack Developer Trainee",
         company: "Limenzy",
-        date: "march 2024 - jun 2024",
+        // date: "march 2024 - jun 2024",
         desc: "I have extensive experience in full stack development, with a strong focus on creating interactive user interfaces using React. I utilize Axios for developing REST APIs, and leverage TypeScript and Next.js for building dynamic websites. Additionally, I implement state management effectively using Redux.",
         skills: [
           "ReactJS",
@@ -192,7 +192,7 @@ export const experiences = [
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EB5omk6uxkzc4pkmXwyy5ukoQOLKF0YkvQ&s",
         role: "Mern Stack Developer intern",
         company: "Futura Labs",
-        date: "jun 2023 - january 2024",
+        // date: "jun 2023 - january 2024",
         desc: "I have extensive experience in full stack development, with a strong focus on creating interactive user interfaces using React. I utilize Axios for developing REST APIs, for building dynamic websites. Additionally, I implement state management effectively using Redux.",
         skills: [
           "ReactJS",

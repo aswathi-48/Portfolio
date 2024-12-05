@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../datass/constants";
 import Typewriter from "typewriter-effect";
-import MyImage from "../../images/myImage.png";
+import MyImage from "../images/myImage.png";
 // import HeroBgAnimation from '../HeroBgAnimation'
 // import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -12,6 +12,7 @@ import {
   headTextAnimation,
 } from "../../utils/motion";
 import StarCanvas from "../canvas/Star";
+
 
 const HeroContainer = styled.div`
   display: flex;
@@ -216,6 +217,7 @@ const HeroBg = styled.div`
 `;
 
 const Hero = () => {
+
   return (
     <div id="About">
       <HeroContainer>
@@ -249,9 +251,9 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href={Bio.resume} target="_blank">
+              {/* <ResumeButton href={Bio.linkes} target="_blank">
                 Check Resume
-              </ResumeButton>
+              </ResumeButton> */}
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
